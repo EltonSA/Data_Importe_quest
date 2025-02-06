@@ -45,7 +45,7 @@ projeto-raiz/
 
 ### 🔹 Clonando o Repositório
 ```sh
-git clone <url_do_repositorio>
+git clone https://github.com/EltonSA/Data_Importe_quest.git
 cd projeto-raiz
 ```
 
