@@ -121,6 +121,20 @@ cd projeto-raiz
 
 Agora, os dados estarão importados no banco de dados e poderão ser acessados via API.
 
+# Consultar Pessoa via API em Python
+
+Este projeto contém um código Python que permite consultar informações de uma pessoa a partir de um ID fornecido pelo usuário. Ele se conecta a uma API desenvolvida em C# e exibe informações sobre a pessoa, como nome, idade, cidade e profissão. Além disso, o código categoriza a idade da pessoa em três grupos: **Jovem**, **Adulto** ou **Sênior**.
+
+## Requisitos
+
+- Python 3.x
+- Biblioteca `requests` instalada para realizar as requisições HTTP.
+
+Você pode instalar o `requests` utilizando o seguinte comando:
+
+```bash
+pip install requests
+
 ---
 
 ## 📌 Considerações Finais
