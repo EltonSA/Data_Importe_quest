@@ -62,7 +62,7 @@ cd projeto-raiz
    ```json
    {
      "ConnectionStrings": {
-       "DefaultConnection": "Server=localhost;Database=ProvaIA;Trusted_Connection=True;TrustServerCertificate=True;"
+       "DefaultConnection": "Server=<Local-banco>;Database=<Seu-Banco>;Trusted_Connection=True;TrustServerCertificate=True;"
      },
      "Logging": {
        "LogLevel": {
