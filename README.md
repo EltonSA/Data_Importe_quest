@@ -111,7 +111,7 @@ cd projeto-raiz
    5,Elisa Ramos,31,Fortaleza,Advogada
    """
 
-   response = requests.post("http://localhost:5000/api/import", data=csv_data)
+   response = requests.post("http://localhost:5177/api/import", data=csv_data)
    print(response.status_code)
    ```
 4. **Execute o script:**
