@@ -1,0 +1,77 @@
+# Arquivos de objeto compilados
+*.o
+*.obj
+
+# Cabeçalhos pré-compilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartilhados (incluindo DLLs do Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+
+# Arquivos de depuração
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados da compilação do módulo do Kernel
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Rider
+.idea/
+
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+
+# Arquivos específicos do usuário
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos gerados automaticamente pelo Mono
+mono_crash.*
+
+# Caches de arquivos de imagem do Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivo de configuração da pasta
+Desktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$RECYCLE.BIN/
+
+# Diretórios do VS Code
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
