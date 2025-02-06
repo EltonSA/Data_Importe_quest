@@ -10,7 +10,7 @@ def categorizar_idade(idade):
         return "Sênior"
 
 # Input para informar o id de consulta
-id_user = input("Informe o ID do usuário (Apenas número): ")
+id_user = input("Informe o ID do usuário: ")
 
 # Verifica se o ID é numérico
 if id_user.isdigit():
@@ -18,7 +18,7 @@ if id_user.isdigit():
     
     # Função para consultar a API C#
     def consultar_pessoa(id):
-        url = f'http://localhost:5177/api/pessoas/{id}'  # URL da API C#
+        url = f'http://localhost:5177/api/pessoas/{id}'
         response = requests.get(url)
         
         if response.status_code == 200:
