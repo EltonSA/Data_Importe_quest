@@ -18,7 +18,7 @@ if id_user.isdigit():
     
     # Função para consultar a API C#
     def consultar_pessoa(id):
-        url = f'http://localhost:5177/api/pessoas/{id}'
+        url = f'http://localhost:5000/api/pessoas/{id}'
         response = requests.get(url)
         
         if response.status_code == 200:
